@@ -1,5 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 
+#initial project files
+
 .idea
 target
-problems.iml
+*.iml

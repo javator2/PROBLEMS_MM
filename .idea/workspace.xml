@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11635064-8b68-45d1-ad2c-708c741be44a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdacademy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sdacademy/problems/Problems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sdacademy/problems/ProblemsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,17 +22,38 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="102">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sdacademy/Main.java">
+      <file leaf-file-name="ProblemsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sdacademy/problems/ProblemsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="134">
+              <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problems.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sdacademy/problems/Problems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +73,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdacademy/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/ProblemsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Problems.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sdacademy/problems/ProblemsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sdacademy/problems/Problems.java" />
       </list>
     </option>
   </component>
@@ -97,6 +122,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,20 +156,55 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sdacademy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sdacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,9 +218,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProblemsTest.shouldDuplicateElementsInAList">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ProblemsTest.listOfEmptyListShouldBe0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdacademy.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sdacademy.problems" />
+      <option name="MAIN_CLASS_NAME" value="com.sdacademy.problems.ProblemsTest" />
+      <option name="METHOD_NAME" value="listOfEmptyListShouldBe0" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProblemsTest.shouldDuplicateElementsInAList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdacademy.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sdacademy.problems" />
+      <option name="MAIN_CLASS_NAME" value="com.sdacademy.problems.ProblemsTest" />
+      <option name="METHOD_NAME" value="shouldDuplicateElementsInAList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProblemsTest.shouldFindLastElementFromAListOfAlphabets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdacademy.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sdacademy.problems" />
+      <option name="MAIN_CLASS_NAME" value="com.sdacademy.problems.ProblemsTest" />
+      <option name="METHOD_NAME" value="shouldFindLastElementFromAListOfAlphabets" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProblemsTest.shouldFindListOfNonEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdacademy.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sdacademy.problems" />
+      <option name="MAIN_CLASS_NAME" value="com.sdacademy.problems.ProblemsTest" />
+      <option name="METHOD_NAME" value="shouldFindListOfNonEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProblemsTest.shouldReverseAList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdacademy.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sdacademy.problems" />
+      <option name="MAIN_CLASS_NAME" value="com.sdacademy.problems.ProblemsTest" />
+      <option name="METHOD_NAME" value="shouldReverseAList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -199,6 +375,22 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ProblemsTest.shouldFindLastElementFromAListOfAlphabets" />
+      <item itemvalue="JUnit.ProblemsTest.listOfEmptyListShouldBe0" />
+      <item itemvalue="JUnit.ProblemsTest.shouldFindListOfNonEmptyList" />
+      <item itemvalue="JUnit.ProblemsTest.shouldReverseAList" />
+      <item itemvalue="JUnit.ProblemsTest.shouldDuplicateElementsInAList" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProblemsTest.shouldDuplicateElementsInAList" />
+        <item itemvalue="JUnit.ProblemsTest.shouldReverseAList" />
+        <item itemvalue="JUnit.ProblemsTest.shouldFindListOfNonEmptyList" />
+        <item itemvalue="JUnit.ProblemsTest.listOfEmptyListShouldBe0" />
+        <item itemvalue="JUnit.ProblemsTest.shouldFindLastElementFromAListOfAlphabets" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -211,18 +403,53 @@
       <option name="presentableId" value="Default" />
       <updated>1532775239374</updated>
       <workItem from="1532775245228" duration="370000" />
-      <workItem from="1532775687286" duration="243000" />
+      <workItem from="1532775687286" duration="446000" />
+      <workItem from="1532776171970" duration="5200000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 07m 55s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 14m 22s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 14m 46s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 15m 47s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 16m 10s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 16m 30s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 17m 54s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 18m 17s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 18m 33s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProblemsTest_shouldDuplicateElementsInAList - 2018.07.28 at 14h 20m 31s.xml">
+      <configuration name="ProblemsTest.shouldDuplicateElementsInAList" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="613000" />
+    <option name="totallyTimeSpent" value="6016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32904884" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -230,18 +457,18 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32904884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32904884" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32904884" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25301206" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25635877" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974293" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -256,17 +483,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -274,10 +496,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdacademy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdacademy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sdacademy/problems/ProblemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdacademy/problems/Problems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
